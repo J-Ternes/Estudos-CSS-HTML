@@ -17,7 +17,6 @@ h1{
 
 .content-flex{
     display: flex;
-    /* flex-direction: column; */
     width: 1200px;
     justify-content: flex-start;
     height: 500px;
@@ -28,4 +27,23 @@ h1{
 .content-flex p{
     padding: 30px;
     width: 300px;
+}
+
+/* Pseudo-classe -> A classe não existe no HTML*/
+.content-flex p:first-child{
+    font-weight: bold;
+}
+
+/* Pseudo-element: Uso quando não tiver como inserir no HTML */
+.content-flex p::before{
+    content: 'conteúdo antes ';
+}
+
+.content-flex p:first-child::after{
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    display: inline-block;
+    margin-right: 20px;
 }
