@@ -1,0 +1,31 @@
+
+/* Oculta a exibição */
+.hide{
+    display: none;
+}
+
+a{
+    background-color: #eee;
+    padding: 10px;
+}
+
+h1{
+    background-color: #eee;
+}
+
+/* Troca o eixo em y para o eixo em x */
+
+.content-flex{
+    display: flex;
+    /* flex-direction: column; */
+    width: 1200px;
+    justify-content: flex-start;
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-flex p{
+    padding: 30px;
+    width: 300px;
+}
