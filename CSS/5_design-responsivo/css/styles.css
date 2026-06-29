@@ -1,3 +1,8 @@
+img{
+    max-width: 100%;
+}
+
+
 header{
     background: #F00;
 }
@@ -23,8 +28,22 @@ nav ul li a{
     color: #00F;
 }
 
-/* Quando o comprimento passar de 760px -> Mobile First */
-@media (min-width:760px){
+@media (min-width: 760px){
+    header{
+        background: #f0f
+    }
+
+}
+
+
+
+
+
+
+
+
+/* Quando o comprimento passar desse pixel -> Mobile First */
+@media (min-width:1280px){
     header{
         background: #00F;
     }
