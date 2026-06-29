@@ -18,7 +18,12 @@ nav ul li a{
     text-decoration: none;
 }
 
-/* Quando o comprimento passar de 760px, ele ficará azul -> Mobile First */
+.paragrado-destaque-desktop{
+    display: none;
+    color: #00F;
+}
+
+/* Quando o comprimento passar de 760px -> Mobile First */
 @media (min-width:760px){
     header{
         background: #00F;
@@ -36,5 +41,9 @@ nav ul li a{
         width: 1280px;
         margin: auto;
     }
+
+    .paragrado-destaque-desktop{
+    display: block;
+}
     
 }
