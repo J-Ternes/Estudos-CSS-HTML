@@ -1,3 +1,10 @@
 header{
-    
+    background: #F00;
+}
+
+/* Quando o comprimento passar de 760px, ele ficará azul -> Mobile First */
+@media (min-width:760px){
+    header{
+        background: #00F;
+    }
 }
